@@ -3,7 +3,7 @@
 ## Usefull Conda commands
 | First Header  | Second Header |
 | ------------- | ------------- |
-| Get a list of all your environments  | conda list  |
+| Get a list of all your environments  | conda env list  |
 | Get a list of all the packages installed in your current active environment  | conda list  |
 | Create an environment called [ENV_NAME]  | conda create --name [ENV_NAME]  |
 | Create an environment called [ENV_NAME] and install pandas and numpy  | conda create --name [ENV_NAME] pandas numpy  |
