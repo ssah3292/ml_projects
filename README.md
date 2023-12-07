@@ -26,7 +26,8 @@
 - Create a folder in local. 
 - sync/create repo in repository. 
 - run in cmd => docker run -i -t -p 8888:8888 -v <LOCAL_FOLDER_PATH>:/home --name <ENV_NAME> phenomback/conda-env:latest /bin/bash
-  To run the puthin files in your local vscode by pointing to container, we need to create the volume to the path "/opt/conda/envs".
+  To run the puthon files in your local vscode by pointing to container, we need to create the volume to the path "/opt/conda/envs".
+  To attach the container to vscode => ctrl+p and choose the "dev Containers: Attach to Running Container..." and then attach the container.
 - create the init_setup.sh (Creating conda env and installing the dependancies) 
 - create the requirements.txt file. 
 - open the container in bash SHELL. "docker exec -it <CONTAINER_ID> bash"
