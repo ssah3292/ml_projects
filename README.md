@@ -35,10 +35,10 @@
 
 - When you want to open the env later, 1st open the container SHELL in bash and activate the env with full path. ex: conda activate /opt/conda/envs/env
 - After running the init_setup.sh, we need to install our local package by following the below steps.
-  -- Create the setup.py
-  -- run the command "python setup.py install"
+  - Create the setup.py
+  - run the command "python setup.py install" \
   Else
-  -- In requirements.txt file add "-e ." and then run "pip install -r requirements.txt"
+  - In requirements.txt file add "-e ." and then run "pip install -r requirements.txt"
 
 
 
