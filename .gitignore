@@ -1,2 +1,8 @@
-/envs
-/test.py
+/env
+/artifacts
+/build
+/logs
+/*.egg-info
+/notebooks/data/*
+/mlruns
+*.pyc
