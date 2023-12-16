@@ -4,7 +4,7 @@ numpy
 seaborn
 Flask
 #this is more stable version
-mlflow==2.2.2
+mlflow==2.9.2
 dvc
 cassandra-driver
 
